@@ -1,6 +1,6 @@
 {
   "name": "use-async-resource-with-recoil",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React custom hook to work with React Suspense and Recoil js",
   "keywords": [
     "use-async-resource-with-recoil",
@@ -11,11 +11,9 @@
   "author": "Kiran Venugopal",
   "main": "src/index.js",
   "bin": "src/index.js",
-  "dependencies": {
-    "react": "17.0.0",
-    "react-dom": "17.0.0",
-    "react-scripts": "3.4.3",
-    "recoil": "0.1.2"
+  "devDependencies": {
+    "react": "^16.13.1",
+    "recoil": "^0.0.13"
   },
   "scripts": {
     "start": "node src/index.js"

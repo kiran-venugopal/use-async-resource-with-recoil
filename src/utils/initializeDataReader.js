@@ -1,5 +1,3 @@
-import { selectorFamily } from "recoil";
-
 const initializeDataReader = (apiFunction, args = [], stateSetter) => {
   // keep data in a local variable so we can synchronously request it later
   let data;
@@ -27,13 +25,6 @@ const initializeDataReader = (apiFunction, args = [], stateSetter) => {
     } else if (status === "error") {
       throw error;
     }
-
-    // selectorFamily({
-    //   key: "",
-    //   get: () => ({ get }) => {
-    //     data = get(recoilAtom);
-    //   }
-    // });
 
     return data;
   };
