@@ -41,7 +41,9 @@
 		const data = dataReader()
 		return (
 			<>
-				data.map(d => <div key={d.id}> {d.value} </div>)
+			  {
+			    data.map(d => <div key={d.id}> {d.value} </div>)
+			  }
 			</>
 		)
 	}
