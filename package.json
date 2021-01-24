@@ -10,6 +10,7 @@
   ],
   "author": "Kiran Venugopal",
   "main": "src/index.js",
+  "bin": "src/index.js",
   "dependencies": {
     "react": "17.0.0",
     "react-dom": "17.0.0",
@@ -20,15 +21,18 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "node src/index.js"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiran-venugopal/use-async-resource-with-recoil"
+  },
+  "homepage": "https://github.com/kiran-venugopal/use-async-resource-with-recoil#readme"
 }
