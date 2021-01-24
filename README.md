@@ -12,7 +12,7 @@
 ```javascript
 	....
 	import useAsyncResourceWithRecoil from  "use-async-resource-with-recoil";
-	import React, {Suspense} from ""
+	import React, {Suspense} from "react"
 	
 	//inside the component
 	...
