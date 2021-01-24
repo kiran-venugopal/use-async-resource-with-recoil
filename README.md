@@ -1,2 +1,5 @@
 # use-async-resource-with-recoil
-A React custom hook to work with React Suspense and Recoil js
+
+### Example app
+
+ [Example 1](https://stackblitz.com/edit/react-egkuwl?file=src/recoilAtoms.js/) 
