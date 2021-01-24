@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { useState, useCallback } from "react";
 import { useRecoilState } from "recoil";
 import initializeDataReader from "./utils/initializeDataReader";
