@@ -66,7 +66,7 @@ After being called, the `useAsyncResourceWithRecoil` hook returns a result objec
 | Name  | Type | Description  |  
 |--|--|--|
 | dataReader | `Function` | invoke this function get the API results 
-| fetchAgain | `Function` | invoke this function to get results the API function again on dataReader()
+| fetchAgain | `Function` | invoke this function to get results the API function again on dataReader(), also we can pass `apiFunction` arguments directly to it <br><br> eg: fetchAgain(arg1, arg2, arg3) 
 | data | `RecoilStateValue` | value of the RecoilState or Recoil Atom
 | setData | `Function` | A function to set the value of RecoilState  
 
