@@ -1,0 +1,35 @@
+{
+  "name": "package-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "scroll"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run ts && webpack",
+    "start": "webpack serve",
+    "ts": "tsc --emitDeclarationOnly"
+  },
+  "author": "Kiran V",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "css-loader": "^6.6.0",
+    "esbuild-loader": "^2.19.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.7.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

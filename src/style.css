@@ -1,0 +1,15 @@
+.react-package {
+  font-family: cursive;
+  color: yellow;
+  font-size: 3rem;
+  border: 4px solid;
+  padding: 10px 30px;
+  max-width: 500px;
+  margin: 200px auto;
+  box-shadow: 9px 9px #ce00ff;
+  background: #363636;
+}
+
+.react-package:hover {
+  box-shadow: -9px -9px #ce00ff;
+}
